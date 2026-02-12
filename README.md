@@ -1,13 +1,13 @@
 # Trader-Behaviour-vs-Market-Sentiment-Analysis
 
-##Overview
+## Overview
 This project analyzes how trader behaviour changes across Bitcoin market sentiment regimes (Fear vs Greed).
 
 Using Hyperliquid trade history and the Fear-Greed Index, I examined whether traders adjust leverage, frequency and position bias — and whether those adjustments actually improve profitability.
 
 The goal is not just correlation, but identifying behavioural patterns that could inform trading decisions.
 
-##Dataset
+## Dataset
 
 1) Bitcoin Fear-Greed Index — daily sentiment classification
 
@@ -15,17 +15,17 @@ The goal is not just correlation, but identifying behavioural patterns that coul
 
 Both datasets were aligned on daily timestamps before analysis.
 
-##How to Run
+## How to Run
 pip install pandas numpy matplotlib seaborn scikit-learn
 jupyter notebook analysis.ipynb
 
-##Method
+## Method
 • Aggregated trades into daily trader metrics (PnL, win rate, size, leverage)
 • Compared behaviour across sentiment regimes
 • Segmented traders by leverage and activity level
 • Evaluated performance differences
 
-##Key Findings
+## Key Findings
 • Traders increased activity during Greed but profitability per trade decreased
 • Fear regimes produced larger but less frequent profits
 • High leverage amplified losses during volatile periods
